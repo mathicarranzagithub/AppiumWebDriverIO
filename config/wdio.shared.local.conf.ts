@@ -11,6 +11,7 @@ export const config: WebdriverIO.Config = {
                 command: 'appium',
                 args: {
                     relaxedSecurity: true,
+                    allowCors: true,
                 },
             },
         ],
@@ -19,4 +20,6 @@ export const config: WebdriverIO.Config = {
     port: 4723,
 
     capabilities: baseConfig.capabilities, 
+
+    
 };

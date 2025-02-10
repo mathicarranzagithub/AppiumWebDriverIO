@@ -14,6 +14,7 @@
     "wdio-vscode-service": "^5.0.0"
   },
   "scripts": {
-    "wdio": "node --loader ts-node/esm wdio config/wdio.android.conf.ts"
+    "wdio": "node --loader ts-node/esm wdio config/wdio.android.conf.ts",
+    "test:android": "npx kill-port 4723 && npx wdio config/wdio.android.conf.ts"
   }
 }
