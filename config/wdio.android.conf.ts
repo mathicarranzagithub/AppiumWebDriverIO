@@ -6,5 +6,5 @@ export const config: WebdriverIO.Config = {
 
     specs: ['../tests/specs/*.ts'],
 
-    capabilities: baseConfig.capabilities, // ✅ Keeps all capabilities
+    capabilities: baseConfig.capabilities, 
 };

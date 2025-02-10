@@ -18,5 +18,5 @@ export const config: WebdriverIO.Config = {
 
     port: 4723,
 
-    capabilities: baseConfig.capabilities, // ✅ Keeps all capabilities from the base config
+    capabilities: baseConfig.capabilities, 
 };
